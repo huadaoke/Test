@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.xiaoke.accountms"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:icon="@drawable/appicon"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.xiaoke.accountms.activity.Login"
+            android:icon="@drawable/appicon"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.xiaoke.accountms.activity.Sysset"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.xiaoke.accountms.activity.AddOutaccount"
+            android:label="@string/addoutaccount" >
+        </activity>
+        <activity
+            android:name="com.xiaoke.accountms.activity.AddInaccount"
+            android:label="@string/addinaccount" >
+        </activity>
+        <activity
+            android:name="com.xiaoke.accountms.activity.Outaccountinfo"
+            android:label="@string/outaccountinfo" >
+        </activity>
+        <activity
+            android:name="com.xiaoke.accountms.activity.Inaccountinfo"
+            android:label="@string/inaccountinfo" >
+        </activity>
+        <activity
+            android:name="com.xiaoke.accountms.activity.Showinfo"
+            android:label="@string/showinfo" >
+        </activity>
+        <activity
+            android:name="com.xiaoke.accountms.activity.MainActivity"
+            android:label="@string/sysset" >
+        </activity>
+        <activity
+            android:name="com.xiaoke.accountms.activity.Accountflag"
+            android:label="@string/accountflag" >
+        </activity>
+        <activity
+            android:name="com.xiaoke.accountms.activity.InfoManage"
+            android:label="@string/infomanage" >
+        </activity>
+        <activity
+            android:name="com.xiaoke.accountms.activity.FlagManage"
+            android:label="@string/flagmanage" >
+        </activity>
+    </application>
+</manifest>
